@@ -1,0 +1,247 @@
+/* Mapa */
+svg{
+    width: 67%;
+    height: 100%;
+}
+.infomap{
+    width: 32.3%;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    /* place-content: left; */
+    /* background-color: rgba(178, 178, 178, 0.368); */
+    /* min-width: min-content;
+    overflow: hidden; */
+    /* word-wrap: break-word; */
+}
+.carousel-inner{
+    width: 100%;
+    border-radius: 15px;
+}
+/* .carousel-item{
+    width: 100%;
+    border-radius: 15px;
+} */
+.mainmap{
+    height: 530px;
+    /* min-height: 650px; */
+    border-radius: 15px;
+    overflow: hidden;
+    /* background-color: #b00600; */
+    transform-origin: 0 0;
+}
+.content-mapa{
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(247, 247, 247, 0.298);
+    padding: 5px;
+    display: flex;
+    place-content: left;
+    transform-origin: 0 0;
+}
+/* FLECHA */
+#M14683{
+    fill: #0357a5;
+}
+/* ESTACIONAMIENTO - PASILLO*/
+#M4978, #M15950{
+    fill: #ddbba5;
+    stroke: blueviolet;
+    stroke-width: 3px;
+}
+/* BIBLIOTECA */
+#M10686{
+    fill: #aa0202;
+}
+/* SALONES L1, L2, L3, L4*/
+#M11915, #M13240, #M14610{
+    fill: #2aa2cd;
+}
+#M16905{
+    fill: #276ced;
+}
+/* MODISTERIA */
+#M18936{
+    fill: #8faadc;
+}
+/* ESPACIO DE EMPRENDIMIENTO */
+#M20175{
+    fill: #fd2550;
+}
+/* SALA INFORMATICA */
+#M17935{
+    fill: #ffff00;
+}
+/* SALA DE JUNTAS */
+#M17777{
+    fill: #9a57cd;
+}
+/* BODEGA SALA DE JUNTAS */
+#M16878{
+    fill: #4e2f65;
+}
+/* BODEGAS Y BAÑOS SALA DE JUNTAS */
+#M19685{
+    /* fill: #ff7bab; */
+    fill: #c1a140; 
+}
+#M20215{
+    fill: #ffc000; 
+}
+#M19605, #M20150{
+    fill: #8b6902; 
+}
+/* ESPACIO COORDINACION */
+#M16710{
+    fill: #c1e61e;
+}
+/* OFICINA DE COORDINACION */
+#M16176{
+    fill: #ee6ad3;
+}
+/* BAÑO COORDINACION */
+#M15870{
+    fill: #790261;
+}
+/* ESPACIO EMPLEO */
+#M15900{
+    fill: #dc3162;
+}
+/* ESPACIO BIENESTAR */
+#M13906{
+    fill: #5cff26;
+}
+/* BAÑO BIENESTAR */
+#M13760{
+    fill: #447a0b;
+}
+/* MINI BODEGA BIENESTAR */
+#M14067{
+    fill: #00b050;
+}
+/* ALMACEN BIENESTAR */
+#M13705{
+    fill: #254e08;
+}
+/* AUDITORIO */
+#M10861{
+    fill: #f33939;
+}
+/* BAÑO DE HOMBRES */
+#M11136{
+    fill: #727272;
+}
+/* BAÑO DE MUJERES */
+#M11785{
+    fill: #727272;
+}
+/* CUARTO DE BAÑO */
+#M11322{
+    fill: #a6a6a6;
+}
+/* PASILLO DE BAÑO */
+#M11011{
+    fill: #a6a6a6;
+}
+/* CUARTO DE COMUNICACIONES */
+#M10257{
+    fill: #f5501d;
+}
+/* CUARTO DE ELECTRICIDAD */
+#M10305{
+    fill: #7e2e16;
+}
+/* PLAZOLETA */
+#M13597{
+    fill: #bf8f6f;
+}
+/* CAFETERIA */
+#M17815{
+    fill: #e18d04;
+}
+/* BODEGA PRINCIAL */
+#M6976{
+    fill: #002c6e;
+}
+/* MINI BODEGAS */
+#M8546, #M8680, #M8850{
+    fill: #023d5a;
+}
+
+
+/* HOVER */
+#M14683:hover, #M4978:hover, #M15950:hover,
+#M10686:hover,
+#M11915:hover, #M13240:hover, #M14610:hover, #M16905:hover,
+#M18936:hover, #M20175:hover, #M17935:hover,
+#M17777:hover, #M16878:hover, #M19685:hover, #M20215:hover, #M19605:hover, #M20150:hover,
+#M16710:hover, #M16176:hover, #M15870:hover,
+#M15900:hover, 
+#M13906:hover, #M13760:hover, #M14067:hover, #M13705:hover,
+#M10861:hover,
+#M11136:hover, #M11785:hover, #M11322:hover, #M11011:hover, 
+#M10257:hover, #M10305:hover,
+#M13597:hover, 
+#M17815:hover,
+#M6976:hover, #M8546:hover, #M8680:hover, #M8850:hover
+
+ {
+    fill: rgb(96, 96, 96);
+    stroke: rgb(35, 35, 35); /* Este es el borde de los departamentos */
+    stroke-width: 15px; /* para que el borde sea mas ancha */
+
+}
+.colores{
+    background-color: #cc0000;
+    background-color: #ff2f2f;
+    background-color: #f4b184;
+    background-color: #ffff00;
+    background-color: #ffff53;
+    background-color: #ffc000;
+    background-color: #66ff33;
+    background-color: #00b050;
+    background-color: #548235;
+    background-color: #92d050;
+    background-color: #a6a6a6;
+    background-color: #7f7f7f;
+    background-color: #8faadc;
+    background-color: #00b0f0;
+    background-color: #002060;
+    background-color: #9a57cd;
+    background-color: #959595;
+    background-color: #404040;
+}
+
+/* Colocamos un color al mapa y otro a las lineas */
+/* .content-mapa path{
+    fill: rgb(233, 153, 153); /* Este  es el fondo del mapa *
+    stroke: rgb(238, 238, 238); /* Este es el borde de los departamentos *
+    stroke-width: 0px; /* para que el borde sea mas ancha *
+} */
+
+/* Colocamos un hover a los departamentos del mapa */
+/* .content-mapa :hover{
+    fill: aqua;
+} */
+
+/* #M4978{
+    fill: rgb(6, 179, 67);
+}
+
+#COL1318{
+    fill: brown;
+    stroke: blueviolet;
+    stroke-width: 3px;
+}
+
+#COL1318 :hover{
+    fill: burlywood;
+
+}
+
+a-sky{
+    max-width: 100px;
+} */
+

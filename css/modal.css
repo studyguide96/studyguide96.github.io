@@ -1,0 +1,44 @@
+.modal-backdrop{
+    background-color: rgba(255, 255, 255, 0.829);
+}
+.modal-content{
+    width: 555px; 
+    height: 740px;
+    /* margin-left: 90%; */
+    border-radius: 15px;
+    background-color: rgba(247, 245, 244, 0.857);
+    color: rgba(189, 85, 6, 0.877);
+}
+#panorama{
+    width: 520px;
+    height: 100%;
+    border-radius: 12px;
+} 
+.pnlm-load-button{
+    width: 100px; 
+    margin-left: -50px;
+    border-radius: 100px;
+    color: rgb(231, 231, 231); 
+    font-size: 12px;
+}
+.btn-close:hover{
+    font-size: 17px;
+    color: blue;
+}
+.pnlm-compass{
+    width: 0px;
+    height: 0px;
+}
+.pnlm-zoom-controls{
+    width: 0px;
+    height: 0px;
+}
+.pnlm-fullscreen-toggle-button{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+}
+.pnlm-fullscreen-toggle-button:hover{
+    background-color: rgba(129, 129, 129, 0.378);
+}
+
